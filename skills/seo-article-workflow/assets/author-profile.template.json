@@ -1,0 +1,16 @@
+{
+  "id": null,
+  "version": 1,
+  "status": "candidate",
+  "role": null,
+  "reader": null,
+  "reader_prior_knowledge": null,
+  "article_job": null,
+  "tone": [],
+  "point_of_view": null,
+  "voice_sample_source": null,
+  "term_explanation": null,
+  "example_policy": "Label hypothetical situations naturally; do not invent real experience or results.",
+  "knowledge_policy": "Use reliable basic knowledge and explicit conditional reasoning; verify specific, uncertain, changing or consequential claims.",
+  "identity_note": "Writing role is not a claim of real credentials."
+}

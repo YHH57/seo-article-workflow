@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "mode": null,
+  "interaction_mode": null,
+  "stage": "intake",
+  "status": "working",
+  "article_accepted": false,
+  "publication": {
+    "platform": null,
+    "market": null,
+    "english_variant": null,
+    "rel": null
+  },
+  "article": null,
+  "artifacts": [],
+  "queries_file": null,
+  "evidence_file": null,
+  "author_profile_file": null,
+  "editorial_profile_file": null,
+  "link_plan": [],
+  "next_action": null
+}

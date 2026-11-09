@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-09",
+  "skill_version": "0.1.0",
+  "cases": [
+    {
+      "id": "intake",
+      "input": "tests/behavior-inputs/intake/page.txt",
+      "request": "tests/behavior-inputs/intake/request.md",
+      "input_sha256": "0c38cb9e71c691572ce0ef9f8a9de0492b32db78adc77e92a142362d166d6d88",
+      "first_output_sha256": "99add54d8fcb1150ef12acebfc618c1c1639d95bccc0e1785de5e876e91ec561",
+      "observation": "输出区分页面内容、厂家比较声明和推断，提出不同读者情境，未进入下一阶段。",
+      "review_method": "primary assistant inspected independent subagent output",
+      "result": "bounded_behavior_observed",
+      "limits": "synthetic offline task; not a real-market or end-to-end production benchmark"
+    },
+    {
+      "id": "research",
+      "input": "tests/behavior-inputs/research/context.json",
+      "request": "tests/behavior-inputs/research/request.md",
+      "input_sha256": "6bdbf7e3578450857b55a6c2b5f31bc1b197da4e305943aa383384ce1149d8e7",
+      "first_output_sha256": "a6e43c53ced28bbbbe49505adb41327c35a83e7b7822b2561b98a371050ac3b0",
+      "observation": "区分美国与英国资料，搜索量 null 未转成零，90 保留为英国合成输入；查询仍为计划，未声称真实意图已验证。",
+      "review_method": "primary assistant inspected independent subagent output",
+      "result": "bounded_behavior_observed",
+      "limits": "synthetic offline task; not a real-market or end-to-end production benchmark"
+    },
+    {
+      "id": "conclusion",
+      "input": "tests/behavior-inputs/conclusion/body.md",
+      "request": "tests/behavior-inputs/conclusion/request.md",
+      "input_sha256": "3ba0e7b207190d81733a02f8074a2557dd9c24b90800051bddae09bd2e116971",
+      "first_output_sha256": "be6782ceed10d21c422b0b9cb3fbcba267aea701dd4c22d138e1cf8a9b1e591d",
+      "observation": "首次输出为一个段落，归纳设置与具体配方、保持其他条件及记录的关系，没有采用设备适配结构、固定总结点数或 CTA。",
+      "review_method": "primary assistant inspected independent subagent output",
+      "result": "bounded_behavior_observed",
+      "limits": "synthetic offline task; not a real-market or end-to-end production benchmark"
+    }
+  ],
+  "no_expected_answers_provided": true,
+  "fresh_subagent_context": true,
+  "global_success_claim": false
+}

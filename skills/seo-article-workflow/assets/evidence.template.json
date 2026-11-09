@@ -1,0 +1,28 @@
+{
+  "sources": [],
+  "claims": [],
+  "source_fields": {
+    "id": "Stable source identifier",
+    "url": null,
+    "final_url": null,
+    "retrieved_at": null,
+    "read_scope": {
+      "kind": null,
+      "pages": [],
+      "sections": []
+    },
+    "full_text_verified": false,
+    "verification_status": "not_read",
+    "public_role": null,
+    "limitations": null
+  },
+  "claim_fields": {
+    "id": "Stable claim identifier",
+    "statement": null,
+    "nature": null,
+    "source_ids": [],
+    "premises": [],
+    "scope": null,
+    "article_location": null
+  }
+}

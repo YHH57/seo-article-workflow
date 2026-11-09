@@ -1,0 +1,46 @@
+{
+  "id": null,
+  "purpose": "intent_validation",
+  "hypothesis": null,
+  "query_origin": "editorial_inference",
+  "status": "planned",
+  "request": {
+    "query": null,
+    "provider": null,
+    "engine": null,
+    "location": null,
+    "language": null,
+    "device": null,
+    "depth": null,
+    "metric_period": null,
+    "filters": {}
+  },
+  "reuse": null,
+  "retrieved_at": null,
+  "raw_paths": [],
+  "result_count": null,
+  "representation": null,
+  "read_urls": [],
+  "metrics": {
+    "search_volume": {
+      "status": "not_queried",
+      "value": null
+    },
+    "keyword_difficulty": {
+      "status": "not_queried",
+      "value": null
+    }
+  },
+  "cost": {
+    "estimated": null,
+    "actual": null,
+    "unit": null,
+    "authorization": null
+  },
+  "error": null,
+  "decision": {
+    "outcome": null,
+    "basis": null,
+    "remaining_uncertainty": null
+  }
+}

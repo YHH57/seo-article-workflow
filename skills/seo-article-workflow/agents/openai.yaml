@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO 文章全流程"
+  short_description: "从读者问题到研究、大纲、英文写作与审阅的通用工作流，支持已有稿件续作"
+  default_prompt: "使用 $seo-article-workflow，根据我的目标和现有材料完成当前阶段，复用合适的研究并保留证据与版本记录。"

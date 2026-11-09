@@ -1,0 +1,83 @@
+{
+  "id": "project-editorial-v1",
+  "status": "adopted_project_preferences_not_universal_seo_requirements",
+  "applies_when": "Explicitly adopted for the current project; user and platform requirements override.",
+  "keywords": {
+    "primary_default": 1,
+    "supporting_default_range": [
+      3,
+      5
+    ],
+    "density_target": null,
+    "repetition_target": null
+  },
+  "article": {
+    "intro_heading": false,
+    "duplicate_summary_box": false,
+    "verified_quantitative_intro": "Prefer one relevant verified body fact when useful; otherwise qualitative.",
+    "faq": {
+      "default_count": 3,
+      "preferred_range": [
+        2,
+        4
+      ],
+      "one_useful_question": "merge_into_body",
+      "no_useful_questions": "omit",
+      "heading": "Frequently Asked Questions",
+      "question_format": "H3 with bold Q1: question",
+      "answer_format": "Separate paragraph starting A:",
+      "body_recap_allowed": true
+    },
+    "conclusion": {
+      "heading": "Conclusion",
+      "paragraph_count": null,
+      "before": "References",
+      "after": "FAQ when present"
+    },
+    "references": {
+      "heading": "References",
+      "groups": [
+        "Sources",
+        "Related Examples",
+        "Further Reading when useful"
+      ],
+      "item_order": [
+        "bold title",
+        "full clickable URL",
+        "Note"
+      ],
+      "continuous_numbering": true,
+      "numeric_body_footnotes": false
+    }
+  },
+  "links": {
+    "owned_blog": {
+      "body_occurrences": 2,
+      "prefer_distinct_body_targets": true,
+      "related_example_occurrences_range": [
+        2,
+        4
+      ],
+      "total_owned_occurrences_range": [
+        4,
+        6
+      ],
+      "same_url_allowed_in_body_and_related": true
+    },
+    "external_article": {
+      "owned_occurrence_limit": null,
+      "related_examples_allowed": true,
+      "counts_from_single_article_plan": true
+    },
+    "technical_sources_counted_separately": true,
+    "competitor_product_pages_and_blogs": "internal_research_only",
+    "count_unique_urls_and_occurrences": true
+  },
+  "html": {
+    "only_when_requested": true,
+    "page_background": "light gray",
+    "reading_page": "white",
+    "headings": "dark blue",
+    "no_image_generation_by_default": true
+  }
+}

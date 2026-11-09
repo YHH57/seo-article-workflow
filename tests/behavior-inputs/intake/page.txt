@@ -1,0 +1,3 @@
+Synthetic offline product-page fixture, not a live business claim.
+Brand: Daybreak Coffee. Product: Hand Grinder Compact.
+Page describes a hand-operated coffee grinder with numbered adjustment positions and replaceable burrs. It includes an illustrated adjustment guide. The maker says it is suitable for travel and that its grind is “more consistent than ordinary grinders”, but supplies no test method or comparison data. The page links to a brewing guide but that guide is not included. Price, warranty region and whether it suits every brewing method are not supplied.

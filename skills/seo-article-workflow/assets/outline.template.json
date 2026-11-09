@@ -1,0 +1,27 @@
+{
+  "title": null,
+  "article_job": null,
+  "reader": null,
+  "primary_keyword": null,
+  "keyword_origin": null,
+  "author_profile_ref": null,
+  "editorial_profile_ref": null,
+  "introduction": {
+    "core_direction": null,
+    "verified_quantitative_item": null
+  },
+  "sections": [],
+  "section_fields": {
+    "id": "Unique section identifier",
+    "heading": "Actual reader-facing heading",
+    "reader_need": "What this part helps the reader understand or do",
+    "explanation": "The actual relationship, method or comparison to explain",
+    "supporting_claim_ids": [],
+    "example": null,
+    "evidence_gaps": []
+  },
+  "conclusion_core_understanding": null,
+  "faq": [],
+  "link_opportunities": [],
+  "status": "working"
+}

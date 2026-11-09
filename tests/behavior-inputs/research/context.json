@@ -1,0 +1,56 @@
+{
+  "synthetic_fixture": true,
+  "publication_mode": "external_article",
+  "platform": null,
+  "reader": "Parents coordinating household schedules",
+  "candidate_A": {
+    "reader_task": "Understand how a shared calendar differs from individual reminders",
+    "queries": [
+      "shared family calendar app"
+    ]
+  },
+  "candidate_B": {
+    "reader_task": "Compare the features needed by a busy household",
+    "queries": [
+      "family calendar app comparison"
+    ]
+  },
+  "saved_queries": [
+    {
+      "query": "shared family calendar app",
+      "engine": "google",
+      "provider": "synthetic-provider",
+      "location": "US",
+      "language": "en",
+      "device": "desktop",
+      "retrieved_at": "2026-11-07",
+      "depth": 10,
+      "result_scope": "single response snapshot",
+      "result_types": [
+        "product page",
+        "feature comparison",
+        "household scheduling guide"
+      ],
+      "search_volume": null,
+      "volume_status": "not_queried"
+    },
+    {
+      "query": "family calendar app comparison",
+      "engine": "google",
+      "provider": "synthetic-provider",
+      "location": "UK",
+      "language": "en",
+      "device": "desktop",
+      "retrieved_at": "2026-11-08",
+      "depth": 10,
+      "result_scope": "single response snapshot",
+      "result_types": [
+        "comparison page",
+        "app directory"
+      ],
+      "search_volume": 90,
+      "volume_status": "available",
+      "metric_period": "synthetic monthly fixture"
+    }
+  ]
+}

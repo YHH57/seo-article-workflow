@@ -1,6 +1,6 @@
 # SEO Article Workflow
 
-用于英文 SEO 文章的通用内容工作流，支持外部投稿、自有博客、已有稿件续作和逐阶段测试。当前版本 **0.1.0**，将流程原则、项目偏好和测试观察分开；不依赖特定行业、品牌、付费 SEO 供应商或固定文章模板。
+用于英文 SEO 文章的通用内容工作流，支持外部投稿、自有博客、已有稿件续作和逐阶段测试。当前版本 **0.1.1**，将通用流程、可选输出格式和测试观察分开；不依赖特定行业、品牌或付费 SEO 供应商，不强制所有文章采用同一模板。
 
 ## 入口与用法
 
@@ -10,6 +10,7 @@ Skill 位于 [skills/seo-article-workflow/SKILL.md](skills/seo-article-workflow/
 
 - “使用 $seo-article-workflow，先理解这个目标页和读者情境，本轮不要查关键词或写文章。”
 - “沿用已确认 brief 和研究，完成一篇英文外部文章，平台未确定；只交付 Markdown。”
+- “本篇使用标准模式，先生成大纲供我审阅，暂不写正文。”
 - “审阅当前稿件，列问题和优先级，不修改。”
 
 按请求逐步交付或连续完成已授权工作，不另设通用审批门槛。图片、HTML、付费查询和发布不会因生成文章而自动执行。
@@ -23,7 +24,7 @@ Skill 位于 [skills/seo-article-workflow/SKILL.md](skills/seo-article-workflow/
 - 事实复核、可选表达编辑、内容诊断、定向修改与版本收尾。
 - 按需 HTML、发布交接及批量复用指导。
 
-项目选择的 FAQ、引用格式、自有博客链接数量和视觉样式位于 [project-editorial-profile.json](skills/seo-article-workflow/assets/project-editorial-profile.json)，不是通用 SEO 规定。
+原项目选择的 FAQ、引用格式、自有博客链接数量和视觉样式现作为可选的**标准模式**，配置仍位于 [project-editorial-profile.json](skills/seo-article-workflow/assets/project-editorial-profile.json)。用户选择后固定沿用这些约定及其条件；未选时按内容或用户模板安排，不自动套用。大纲阶段展示本篇采用的格式，具体见 [output-format.md](skills/seo-article-workflow/references/output-format.md)。标准模式固定呈现骨架，不固定题材、小标题、段数或作者语气，也不是通用 SEO 规定。
 
 ## 本地验证
 

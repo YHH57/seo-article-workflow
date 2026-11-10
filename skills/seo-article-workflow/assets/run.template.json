@@ -17,6 +17,12 @@
   "queries_file": null,
   "evidence_file": null,
   "author_profile_file": null,
+  "output_format": {
+    "mode": null,
+    "profile_id": null,
+    "selection_basis": null,
+    "overrides": []
+  },
   "editorial_profile_file": null,
   "link_plan": [],
   "next_action": null

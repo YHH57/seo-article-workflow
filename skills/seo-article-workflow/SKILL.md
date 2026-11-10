@@ -2,7 +2,7 @@
 name: seo-article-workflow
 description: 从目标页面、主题或已有资料研究、规划、撰写和审阅英文 SEO 文章，支持外部投稿、自有博客及已有稿件续作。用于文章内容生产与流程测试，不代替整站技术审计或自动发布。
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # SEO 文章全流程
@@ -25,6 +25,7 @@ metadata:
 | 查询方案、复用、SERP、指标与证据 | [research.md](references/research.md) |
 | 关键词与链接计划、引用 | [keywords-links.md](references/keywords-links.md) |
 | 作者配置、大纲、正文与结论 | [writing.md](references/writing.md) |
+| 大纲阶段展示输出格式，或选择标准模式 | [output-format.md](references/output-format.md) |
 | 审阅、定向修改与收尾 | [review.md](references/review.md) |
 | Markdown、可选 HTML、平台交接与批量 | [delivery.md](references/delivery.md) |
 | 阶段记录、状态、版本与流程测试 | [records-testing.md](references/records-testing.md) |
@@ -35,7 +36,7 @@ metadata:
 2. **明确读者处境。** 从读者想理解、决定或完成的事提出不同情境；在情境中展开问题池，再形成可能的搜索表达。三者分开记录，编辑推导不等于已验证意图。
 3. **展开文章候选。** 将相关问题组织成不同文章任务，比较读者收获、范围、目标页关系和证据可行性。数量取决于实际差异，不把少数原始问题当作全部选题。
 4. **验证意图并选择方向。** 先展示查询方案、复用项和成本；用代表性查询及相关正文判断内容需要。解释保留、合并、调整或放弃的依据。实质选择尚未解决时不宣称已经确定。
-5. **研究内容并准备大纲。** 方向稳定后补充真正需要的事实与解释。记录作者配置、关键词和链接计划；大纲写清实际准备解释的内容与关系，而不止写“解释关系、请对方确认”。
+5. **研究内容并准备大纲。** 方向稳定后补充真正需要的事实与解释。记录作者配置、关键词和链接计划，并按 [output-format.md](references/output-format.md) 展示本篇输出格式；用户选定标准模式后沿用其格式。大纲写清实际准备解释的内容与关系，而不止写“解释关系、请对方确认”。
 6. **生成与编辑。** 按大纲写完整初稿；先解决事实与核心解释，再按需要做一次表达编辑。保留首次输出、重要版本及实际修改理由。
 7. **诊断与收尾。** 审阅当前修订版，修有文本依据的实质问题，复核受影响内容。不为追求唯一最佳措辞无限重写。按用户范围交付正文或继续格式化。
 
@@ -55,7 +56,7 @@ metadata:
 
 [run.template.json](assets/run.template.json) 保存当前状态；其他模板按需要使用，不为小任务创建全套空文件。
 
-[project-editorial-profile.json](assets/project-editorial-profile.json) 收录本项目的关键词、引用、FAQ、博客链接数量及 HTML 偏好。采用时记录配置名称，用户与平台要求可覆盖。它们不是 SEO 硬性规则，不自动推广到其他项目。
+[project-editorial-profile.json](assets/project-editorial-profile.json) 是可选的**标准模式**配置，收录关键词、引用、FAQ、博客链接数量及 HTML 样式。用户选择后按该格式输出，未选择时不自动套用。用户或平台的明确覆盖项单独记录；它是输出约定，不是通用 SEO 硬性规则。选择和执行方式见 [output-format.md](references/output-format.md)。
 
 Humanizer、seo-content 是可选组件，使用前读取实际 Skill。没有时按本包完成工作并记录方法；不自动安装，不连续运行多套语言清理器，评分不代替文本判断。
 

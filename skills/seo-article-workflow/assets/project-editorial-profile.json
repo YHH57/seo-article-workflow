@@ -1,7 +1,9 @@
 {
   "id": "project-editorial-v1",
-  "status": "adopted_project_preferences_not_universal_seo_requirements",
-  "applies_when": "Explicitly adopted for the current project; user and platform requirements override.",
+  "display_name": "标准模式",
+  "output_mode": "standard",
+  "status": "optional_output_format_not_universal_seo_requirements",
+  "applies_when": "The user selects standard mode or an already adopted project profile applies. Do not apply automatically to other tasks. Record explicit user or platform overrides.",
   "keywords": {
     "primary_default": 1,
     "supporting_default_range": [
@@ -12,6 +14,15 @@
     "repetition_target": null
   },
   "article": {
+    "section_order": [
+      "H1",
+      "introduction",
+      "task_specific_body",
+      "FAQ when useful",
+      "Conclusion",
+      "References when there are actual entries"
+    ],
+    "body_structure": "Headings, section count and examples follow the article task; voice follows the author profile.",
     "intro_heading": false,
     "duplicate_summary_box": false,
     "verified_quantitative_intro": "Prefer one relevant verified body fact when useful; otherwise qualitative.",
@@ -46,6 +57,7 @@
         "full clickable URL",
         "Note"
       ],
+      "empty_groups": "omit",
       "continuous_numbering": true,
       "numeric_body_footnotes": false
     }
